@@ -1,0 +1,140 @@
+.facultyInfoSection{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.facultyInfoBody{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.facultyInfoBodyTop{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.facultyInfoBodyTop .left{
+    display: flex;
+    width: 45%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #7977ce;
+}
+
+.facultyInfoBodyTop .left .leftBox{
+    z-index: 1000;
+    display: flex;
+    width: 58%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.facultyInfoBodyTop .left h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 7rem;
+}
+
+.facultyInfoBodyTop .left h3 {
+    text-transform: capitalize;
+    font-size: 4rem;
+    color: rgb(65 62 178);
+    background: #9595d6;
+    z-index: 1100;
+    border-radius: 7px 0px 0px 7px;
+    width: 58%;
+    text-align: center;
+}
+
+.facultyInfoBodyTop .right{
+    width: 55%;
+    height: 100%;
+}
+
+.facultyInfoBodyTop .right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:inherit;
+    vertical-align: middle;
+}
+
+.facultyInfoBodyBottom{
+    background: #d9d9d9;
+    display: flex;
+    width: 100%;
+    height: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.facultyInfoBodyBottom .left{
+    display: flex;
+    width: 45%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.facultyInfoBodyBottom .left .imgBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 80%;
+    background-color: #7977ce;
+}
+
+.facultyInfoBodyBottom .left .imgBox img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: #7977ce;
+    object-fit: cover;
+    object-position: top;
+    vertical-align: middle;
+    transform: translateY(70px) translateX(70px);
+}
+
+.facultyInfoBodyBottom .right{
+    padding: 0px 34px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 55%;
+    height: 100%;
+    margin-top: 400px;
+}
+
+.facultyInfoBodyBottom .right h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #7977ce;
+}
+
+.facultyInfoBodyBottom .right h2 span{
+    color:#999;
+}
+
+.facultyInfoBodyBottom .right h2 strong{
+    color: #333;
+    margin-left: 14px;
+}
+
+.facultyInfoBodyBottom .right p{
+    margin-top: 14px;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,89 @@
+.homeSection{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.homeBody{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    background: url("D:\Faculty\frontend\src\images\sh1.jpeg") #8192bba2;
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 11px;
+}
+
+.homeBody h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 6rem;
+    text-transform: uppercase;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.homeBody form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 3rem;
+    height: 50%;
+}
+
+.homeBody form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 3.5rem;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.552);
+    transform: translateY(28px);
+}
+
+.homeBody form div .icon{
+    color: #646161;
+    text-align: left;
+    width: 5%;
+    font-size: 1.1rem;
+}
+
+.homeBody form div input{
+    color: #646161;
+    width: 80%;
+    height: 100%;
+    outline: none;
+    font-size: 1.1rem;
+    border: none;
+    background: none;
+}
+
+.homeBody form div button{
+    border: none;
+    background: #5d5bc7;
+    transform: translate(-6px, -4px);
+    padding: 11px 34px;
+    border-radius: 25px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.homeBody form div button:hover{
+    background: #333;
+    color: white;
+}
+

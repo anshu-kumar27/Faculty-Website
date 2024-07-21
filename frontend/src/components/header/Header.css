@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display:wght@500&family=Poppins:wght@300;700&family=Roboto:wght@300;500&display=swap');
+
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 69px;
+    background: linear-gradient(white , rgba(94, 94, 198, 0.112))
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.navbar-logo{
+    display: block;
+    /* border: 1px solid red; */
+    width: 20%;
+}
+
+.navbar-logo img{
+    width: 110px;
+}
+
+.desktopMenu{
+    display: block;
+    width: 55%;
+    /* border: 1px solid green; */
+}
+
+.desktopMenu ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.desktopMenu ul li{
+    margin: 0px 18px;
+}
+
+.desktopMenu ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.89rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.mobileMenu{
+    transition: all 1s ease-in-out;
+    display: none;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+}
+
+.mobileMenu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    width: 100%;
+}
+
+.mobileMenu ul li{
+    margin: 14px 7px;
+}
+
+.mobileMenu ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navbar-rightMost{
+    display: block;
+    width: 30%;
+    /* border: 1px solid yellow; */
+}
+
+.navbar-buttons{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-button , .bars{
+    margin: 0px 14px;
+}
+
+.navbar a , .icon{
+    color: #333;
+}
+
+.navbar-icon{
+    font-size: 1.2rem;
+}
+
+.navbar a:hover , .navbar-icon:hover{
+    color: #6c7ae0;
+}
+
+.navbar-bars{
+    display: none;
+}
+
+@media screen and (max-width : 800px) {
+    .desktopMenu{
+        display: none;
+        height: 100%;
+        width: 100%;
+        background: #333;
+    }
+
+    .desktopMenu ul{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .desktopMenu ul li{
+        margin: 11px 7px;
+        width: 100%;
+    }
+
+    .desktopMenu ul li a{
+        color: #6c7ae0;
+    }
+
+    .navbar-bars{
+        display: block;
+    }
+
+    .header{
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .navbar{
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,39 @@
+.facultiesSection{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.facultiesBody{
+    width: 80%;
+    /* height: 1000px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.facultiesInfo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 20%;
+    font-size: 1.1rem;
+    margin: 34px 0 150px 0;
+}
+
+.facultiesInfo p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.facultiesCards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
