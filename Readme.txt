@@ -1,2 +1,0 @@
-This faculty page consists of frontend and backend seperately it doesn't have uploading system from frontend<Admin Page> but it can fetch details which are exisiting in the backend 
-It has both frontend and backend 
