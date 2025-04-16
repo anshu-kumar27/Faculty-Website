@@ -9,19 +9,6 @@ const Home = () => {
     const searchIconRef = useRef()
     const searchBoxRef = useRef()
 
-    // const toggleSearch = () => {
-    //     searchBoxRef.current.style.background = "none"
-    //     searchBoxRef.current.style.paddingTop = "initial"
-    //     searchBoxRef.current.style.paddingBottom = "initial"
-    //     searchBoxRef.current.style.width = "330px"
-
-    //     searchIconRef.current.style.display = "none"
-
-    //     inputSearchRef.current.style.border = "none"
-    //     inputSearchRef.current.style.cursor = "initial"
-    //     inputSearchRef.current.style.height = "45px"
-    // }
-
     const [keyword, setKeyword] = useState('');
 
     const handleKeywordChange = (e) => {
